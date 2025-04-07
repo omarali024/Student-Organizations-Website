@@ -26,11 +26,11 @@ a:visited {
 }
 
 /* Header */
-
 header {
     background-color: #1a1f36;
     width: 100%;
     position: fixed;
+    top: 0;
     z-index: 999;
     display: flex;
     justify-content: space-between;
@@ -487,7 +487,7 @@ footer {
     left: 0;
     width: 100%;
     background-color: #fff;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     border-top: none;
     border-radius: 0 0 8px 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -510,4 +510,39 @@ footer {
 
 .result-box li:hover {
     background-color: #f0f0f0;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .navigations{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .header-logo{
+        width: 8em;
+        margin-left: -50px;
+    }
+
+    .search{
+        width: 130px;
+    }
+
+    .welcome{
+        font-size: 10px;
+    }
+
+    .club-details{
+        margin-bottom: 1000px;
+        margin-top: 1000px;
+        justify-content: center;
+
+    }
+
 }
