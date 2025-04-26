@@ -1,5 +1,4 @@
-/* General Styles */
-* {
+*{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -177,7 +176,7 @@ padding-top: 100px;
 }
 
 .card:hover {
-    transform: translateY(-5px);
+    transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -270,7 +269,6 @@ padding-top: 100px;
     background-color: #f9f9f9;
     margin-top: 50px;
     border-radius: 10px;
-    
 }
 
 .club-details img {
@@ -319,12 +317,14 @@ padding-top: 100px;
     padding: 50px 20px;
 }
 
+
 .club-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     justify-items: center;
     margin-top: 20px;
+        
 }
 
 #acpc-img{
@@ -425,7 +425,7 @@ padding-top: 100px;
 .club-details {
     padding: 50px;
     text-align: center;
-    background-color: #1a1f36;
+    background-color:#000000;
     color: white;
     margin-top: 40px;
     border-radius: 10px;
@@ -456,7 +456,7 @@ padding-top: 100px;
 }
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: #000000;
     color: white;
     text-align: center;
     padding: 15px;
@@ -464,7 +464,7 @@ footer {
 }
 
 .footer-content a {
-    color: #00aaff;
+    color: red;
     text-decoration: none;
     font-weight: 500;
 }
@@ -524,8 +524,6 @@ footer {
     position: relative; /* Important for dropdown positioning */
     width: 260px;
     margin-left :0px;
-    
- 
 }
 
 .result-box {
@@ -735,6 +733,7 @@ footer {
 .unnec-body{
     margin:0;
     padding:20px;
+   
 }
 .unnec-container{
     display:flex;
@@ -776,4 +775,39 @@ margin-bottom:20px;
 }
 .unnec-points li{
     margin-bottom:15px;
+}
+.tedx-video{
+margin-left:800px;
+margin-top:-340px;
+}
+.tedx-body{
+    background-color:#8B0000;
+}
+.tedx-text{
+    width:720px;
+    margin-left:30px;
+    margin-top:120px;
+    
+
+}
+.tedx-text ul{
+    line-height: 1.8;
+}
+.tedx-text ul li{
+    color:black;
+    font-size:x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+hr{
+    background-color:black;
+    height:6px;
+    border:10px ;
+    width:450px;
+
+}
+#tedx-icons{
+    color:black;
+}
+#tedx-icons:hover{
+color:red;
 }
